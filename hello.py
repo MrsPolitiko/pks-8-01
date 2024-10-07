@@ -6,7 +6,8 @@ def get_vowels(String):
 def capitalize(String):
     return String.title()
 
-
 sys.stdout.write(capitalize("hello world\n"))
 
-
+names = ["Alice", "Bob", "Charlie"]
+for name in names:
+    print(name)
